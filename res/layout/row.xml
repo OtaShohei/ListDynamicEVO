@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Adapterが一行のアピアランスを設定するので、このrow.xmlでテキストの色とバックグラウンドの色を変更できるようにした。
+アレイAdapterの第二引数でこのxmlを指定している（R.layout.row）。 -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@android:id/text1"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:textAppearance="?android:attr/textAppearanceLarge"
+ android:textColor="#ff3333"
+ android:background="#00dddd"
+ android:gravity="center_vertical"
+ android:paddingLeft="6dip"
+ android:minHeight="?android:attr/listPreferredItemHeight"
+ />
